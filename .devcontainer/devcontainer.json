@@ -1,0 +1,22 @@
+{
+    "name": "Dockerfile",
+    "build": {
+        "context": "..",
+        "dockerfile": "../Dockerfile",
+        "target": "dev"
+    },
+    "features": {
+        "ghcr.io/devcontainers/features/common-utils:2": {},
+        "ghcr.io/devcontainers/features/kubectl-helm-minikube:1": {}
+    },
+    "containerUser": "root",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-azuretools.vscode-docker",
+                "rust-lang.rust-analyzer",
+                "tamasfe.even-better-toml"
+            ]
+        }
+    }
+}
