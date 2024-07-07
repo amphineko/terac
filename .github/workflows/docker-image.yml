@@ -8,7 +8,7 @@ on:
       - fix-*
       - re-*
     tags:
-      - "v*.*.*-terac*"
+      - "v*.*.*"
   workflow_dispatch:
 
 jobs:
