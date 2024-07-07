@@ -1,5 +1,8 @@
 # terac
 
+![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/amphineko/terac/rust.yml?label=rust-build-and-test)
+![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/amphineko/terac/docker-image.yml?label=docker%20build)
+
 > Tera is a template engine inspired by Jinja2 and the Django template language.
 
 This program is a simple wrapper around the [Tera](https://github.com/Keats/tera) template engine. 
